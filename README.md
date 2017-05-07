@@ -28,8 +28,10 @@ Task-1
 *********
 To optimize further using the same algorithm we can add arguments in the function word_features.
 By running the algorithm it prints the probability of correctness in test_data, precision, recall, f1-score and few data where the classifier is not agreeing with training_data
+
 *Output*
 stats:
+
 probability of Correctness of the Test Data:
 0.900579710145
 
@@ -47,14 +49,14 @@ F1-score:
 
 
 Most Informative Features of the classifier:
+
                  suffix2 = 'z'               ASP : NASP   =     15.9 : 1.0
                  suffix2 = 'c'               ASP : NASP   =     11.2 : 1.0
              last_letter = 's'              NASP : ASP    =      9.7 : 1.0
              last_letter = 'o'              NASP : ASP    =      9.3 : 1.0
                  suffix2 = 'f'               ASP : NASP   =      8.6 : 1.0
-None
-**
-This is output is printed in addition to the above mentioned data.( Data which can analyzed to optimize the algo. further.
+
+
 ****************************************************************
 Task-2
 ******
