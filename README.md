@@ -61,8 +61,9 @@ Most Informative Features of the classifier:
 Task-2
 ******
 Here for clustering the given data I used K-means algorithm as it is easy to use :P.
-As it a bonus task I just wanted to show that I can do these type of things as well .
+
 I used K-means algorithm. Here number of clusters are to be predefined. The number of clusters to which they were divided are for large data (n/20).
+
 For small amounts of data this algorithm doesn't work.
 I used tfid vectorization to vectorize the given tokens and use Kmeans on it.
 Given data consists of 259 tokens so these data is divided into 12 clusters.
