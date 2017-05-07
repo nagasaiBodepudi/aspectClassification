@@ -2,7 +2,7 @@
 This algorithm provides a basic approach to Aspect classification and Grouping of words in python.
 All of the code are written in python2.7.
 
-`The algorithm which I used can be optmized.
+The algorithm which I used can be optmized.
 This gives a basic idea of Natural Language Proccessing. 
 
 First  code is about seperating required words which are used in analyzing the conext of the whole sentence for sensitivity analysis.
@@ -32,14 +32,20 @@ By running the algorithm it prints the probability of correctness in test_data, 
 stats:
 probability of Correctness of the Test Data:
 0.900579710145
+
 number of true positive, false positive, flase negative are respectively:
 (3107, 276, 67)
+
 Precision:
 0.918415607449
+
 Recall:
 0.978890989288
+
 F1-score:
 0.947689492146
+
+
 Most Informative Features of the classifier:
                  suffix2 = 'z'               ASP : NASP   =     15.9 : 1.0
                  suffix2 = 'c'               ASP : NASP   =     11.2 : 1.0
